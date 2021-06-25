@@ -1,0 +1,3 @@
+; 20. Un ISBN-10 es válido si sus 10 dígitos x1, x2, x3, ... x10 cumplen lo siguiente:
+;(x1 * 10 + x2 * 9 + x3 * 8 + x4 * 7 + x5 * 6 + x6 * 5 + x7 * 4 + x8 * 3 + x9 * 2 + x10 * 1) mod 11 == 0
+;Un ISBN-10 está dividido en cuatro partes: el código de país o lengua de origen (de 1 a 5 dígitos), el editor, el número del artículo y un dígito de control. Opcionalmente, estas cuatro partes pueden estar separadas mediante espacios en blanco o guiones. El dígito de control puede valer X que representa el valor 10. Por ejemplo, 3-598-21507-X es un ISBN-10 válido. Escribir la función isbn-10? que devuelve true si la cadena recibida es un ISBN-10 válido; si no, false.

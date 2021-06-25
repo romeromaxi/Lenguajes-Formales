@@ -1,0 +1,1 @@
+; 43. Definir una función que devuelva un vector con los números primos menores que 100.
