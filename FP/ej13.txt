@@ -1,0 +1,17 @@
+13. Dada una secuencia con dos elementos, donde el primero es un átomo o secuencia
+y el segundo es un número, obtener una secuencia que contenga el primer
+elemento tantas veces como indica el número.
+Ej: < a, 4 > ⟶ < a, a, a, a >
+
+Def preparar_forma_params = [1, 1, iota o - o [2, ~1], 2]
+Def es_primera_iter_con_seq = (eq o [length o 3, - o [4, ~1]])
+Def repetir_elementos = (null o 3 -> 1; repetir_elementos o [((atom o 1) -> [1, 2]; (es_primera_iter_con_seq -> [1, 2]; apndr o [1, 2])), 2, tl o 3, 4])
+Def replicar_elemento = repetir_elementos o preparar_forma_params
+replicar_elemento: <a 4>
+replicar_elemento: <<a b c> 3>
+
+Utilizando la función anterior, escribir una función no recursiva que aplicada a un
+número n devuelva una matriz de n × n de la siguiente forma:
+Si n=4 ⟶ < <1, 2, 3, 4>, <1, 2, 3, 4>, <1, 2, 3, 4>, <1, 2, 3, 4> >
+
+Def matriz_n_n = replicar_elemento o [iota o id, id]
