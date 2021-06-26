@@ -9,4 +9,5 @@ Ej: pertenece: <1 <2 3 4 1 5 6>>
 
 b) Def secuencia_simple = eq o [length; ~1]
 
-c) Def cant_atomos = /+ o @(atom -> ~1; ~0)    
+c) Def cant_atomos = /+ o @(atom -> ~1; ~0)
+   Def cant_atomos_par = es_par o cant_atomos    
