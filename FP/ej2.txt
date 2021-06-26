@@ -1,0 +1,11 @@
+2. Definir funciones que determinen:
+    a) La pertenencia de un elemento a una secuencia.
+    b) Si una secuencia tiene un solo componente.
+    c) Si la cantidad de átomos de una secuencia es par.
+
+
+a) Def pertenece = (null o 2) -> ~F; (/or o @eq o distr)
+
+b) Def secuencia_simple = eq o [length; ~1]
+
+c) Def cant_atomos = /+ o @(atom -> ~1; ~0)    
