@@ -1,0 +1,2 @@
+9. Dada una matriz de números enteros, definir una función que obtenga la
+sumatoria de los números mayores que 0 de las columnas pares.

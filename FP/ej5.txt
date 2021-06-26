@@ -1,0 +1,9 @@
+5. Definir funciones que permitan:
+    a) Planchar una secuencia.
+    b) Concatenar dos subsecuencias planchadas.
+    c) Invertir totalmente una secuencia.
+    d) Ordenar una secuencia.
+    e) Calcular la profundidad de una secuencia (niveles de subsecuencias).
+
+
+b) Def concatenar = /apndl o apndr 

@@ -9,11 +9,11 @@ ordenado indica un partido jugado (no hay empates) obtener:
 
 a) Def equipos_invictos = union o apndl o [id, ~<>] o diferencia o [@1, @2]
 
-b) Def equipos_invictos = union o apndl o [id, ~<>] o diferencia o [@2, @1]
+b) Def equipos_perdieron = union o apndl o [id, ~<>] o diferencia o [@2, @1]
 
-c) Los que ganaron más veces de las que perdieron.
+c)
 
-d) Los que perdieron más veces de las que ganaron.
+d)
 
-e) Los que perdieron y ganaron la misma cantidad de veces.
+e) 
     
