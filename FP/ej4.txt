@@ -1,0 +1,5 @@
+4. Definir una función que aplicada sobre un número natural n; obtenga como
+resultado el máximo valor resultante de aplicar cierta función B (predefinida)
+sobre el intervalo natural que finaliza en n (Máximo entre B:1; B:2; ... B:n).
+
+Def maximo_predef = maximo_secuencia o @(* o [id, ~2])
