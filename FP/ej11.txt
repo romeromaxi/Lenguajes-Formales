@@ -1,0 +1,3 @@
+11. Dados dos vectores n-dimensionales, obtener el vector suma (sin recursividad).
+
+Def vector_suma = @+ o trans
