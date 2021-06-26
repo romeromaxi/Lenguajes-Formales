@@ -1,0 +1,3 @@
+8. Definir el producto de un escalar por una matriz.
+
+Def prod_esc_matriz = @(@*) o @distl o distl
