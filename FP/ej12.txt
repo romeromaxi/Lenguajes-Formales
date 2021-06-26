@@ -1,0 +1,4 @@
+12. Dado un número n, generar la siguiente secuencia (sin recursividad):
+<<1>, <1, 2>, <1, 2, 3>, <1, 2, 3, 4>, ... <1, 2, 3, 4, ... n>>
+
+Def iota_doble = (@iota) o iota

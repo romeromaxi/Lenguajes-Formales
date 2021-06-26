@@ -1,0 +1,19 @@
+14. Dada una secuencia de pares ordenados donde la primera componente indica el
+equipo que resultó ganador y la segunda indica el perdedor y donde cada par
+ordenado indica un partido jugado (no hay empates) obtener:
+    a) Los equipos invictos.
+    b) Los que siempre perdieron.
+    c) Los que ganaron más veces de las que perdieron.
+    d) Los que perdieron más veces de las que ganaron.
+    e) Los que perdieron y ganaron la misma cantidad de veces.
+
+a) Def equipos_invictos = union o apndl o [id, ~<>] o diferencia o [@1, @2]
+
+b) Def equipos_invictos = union o apndl o [id, ~<>] o diferencia o [@2, @1]
+
+c) Los que ganaron más veces de las que perdieron.
+
+d) Los que perdieron más veces de las que ganaron.
+
+e) Los que perdieron y ganaron la misma cantidad de veces.
+    

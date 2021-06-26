@@ -1,0 +1,9 @@
+
+Def iota = funrec o [id, ~<>]
+
+Def funrec = < o [1, ~1] -> 2; funrec o [- o [1, ~1], apndl]
+
+Def eliminar_vacios = /(null o 1 -> 2; apndl) o apndr o [id, ~<>]
+
+Def pertenece = (null o 2) -> ~F; (/or o @eq o distl)
+Ej: pertenece: <1 <2 3 4 1 5 6>>
