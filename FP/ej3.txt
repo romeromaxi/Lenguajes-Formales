@@ -1,0 +1,17 @@
+3. Dada una secuencia con dos subsecuencias, definir funciones para determinar:
+    a) La unión de ambas subsecuencias.
+    b) La intersección de ambas subsecuencias.
+    c) La diferencia de ambas subsecuencias.
+    d) La diferencia simétrica de ambas subsecuencias.
+
+
+a) Def aux_union = /(pertenece -> 2; apndl)
+   Def union = /aux_union o apndr
+
+b) Def pertenece_dev = (pertenece -> 1; ~<>)
+   Def interseccion = eliminar_vacios o @pertenece_dev o distr
+
+c) Def eliminar_si_pertenece = (null o 2) -> ~<>; pertenece -> ~<>; 1.
+   Def diferencia = eliminar_vacios o @eliminar_si_pertenece o distr
+
+d) Def diferencia_sim = diferencia o [union, interseccion]

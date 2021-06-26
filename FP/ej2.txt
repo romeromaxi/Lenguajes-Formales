@@ -4,7 +4,8 @@
     c) Si la cantidad de átomos de una secuencia es par.
 
 
-a) Def pertenece = (null o 2) -> ~F; (/or o @eq o distr)
+a) Def pertenece = (null o 2) -> ~F; (/or o @eq o distl)
+Ej: pertenece: <1 <2 3 4 1 5 6>>
 
 b) Def secuencia_simple = eq o [length; ~1]
 
