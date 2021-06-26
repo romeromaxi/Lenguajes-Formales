@@ -1,0 +1,7 @@
+10. Definir una función selector por izquierda para arreglos de n dimensiones.
+Ej: < <3, 2>, < <A, B, C>, <D, E, F>, <G, H, I> > > ⟶  <H>
+
+Def select_item = (> o [1, ~1]) -> select_item o [- o [1, ~1], tl o 2]; (1 o 2)
+Def select_item_matriz = (atom o 1) -> select_item; select_item_matriz o [(eq o [length o tl o 1, ~1]) -> 1 o tl o 1; tl o 1, (select_item o [1 o 1, 2])]
+select_item_matriz: <<3, 2>, <<A, B, C>, <D, E, F>, <G, H, I>>>
+select_item_matriz: <<3 1 2> , <<<A B> <C D>> <<E F> <G H>> <<I J> <K L>>>>
