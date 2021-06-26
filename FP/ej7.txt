@@ -1,0 +1,4 @@
+7. Dados dos vectores de un espacio n-dimensional, definir una función que
+determine si ambos vectores tienen al menos una componente en coincidencia.
+
+Def algun_comp_coinciden = /or o @eq o trans
