@@ -8,7 +8,8 @@
 
 b) Def concatenar = /apndl o apndr 
 
-c) Def invertir_sec_aux = (null o 1) -> 2; invertir_sec_aux o [tl o 1, apndl o [1 o 1, 2]]
+c) (sin usar la función reverse)
+   Def invertir_sec_aux = (null o 1) -> 2; invertir_sec_aux o [tl o 1, apndl o [1 o 1, 2]]
    Def invertir_sec = invertir_sec_aux o [id, ~<>]
 
 
