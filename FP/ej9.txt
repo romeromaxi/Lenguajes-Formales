@@ -1,2 +1,15 @@
 9. Dada una matriz de números enteros, definir una función que obtenga la
 sumatoria de los números mayores que 0 de las columnas pares.
+
+
+Def aux_columna_par = (es_par o 1 o 2) -> apndR o [3, 1 o 1]; 3
+Def columna_par = (null o 2) -> 3; columna_par o [tl o 1, tl o 2, aux_columna_par o id]
+Def matriz_col_pares = @(columna_par o [id, iota o length, ~<>])
+
+Def es_positivo = > o [id, ~0]
+Def elementos_positivos = eliminar_vacios o @(es_positivo -> id; ~<>)
+Def concatenar = /apndl o apndr 
+
+Def sumar_positv_col_pares = /+ o /concatenar o @elementos_positivos o matriz_col_pares
+
+sumar_positv_col_pares: <<1 -2 -3 4> <5 6 7 8> <-9 10 11 -12>>
